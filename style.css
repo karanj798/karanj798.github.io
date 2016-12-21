@@ -1,0 +1,46 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Comfortaa', cursive;
+  src: url('Comfortaa-Regular.ttf') format('opentype');
+}
+
+html{
+	font-family: 'Comfortaa', cursive;
+}
+
+#fsbg{
+	height: 0px;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: -200;
+	min-height: 100%;
+	min-width: 1040px;
+	user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.authour{
+	position: relative;
+	text-align: center;
+	top:35vh;
+	margin:0;
+}
+
+.authour span{
+	font-weight: 500;	
+	font-size: 72px;
+	color: white;
+}
+.github{
+	position: absolute;
+	left: 30%;
+	top: 55%;
+	font-size: 72px;
+	color: white;
+	
+}
