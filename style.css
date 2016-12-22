@@ -24,6 +24,10 @@ html{
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+body{
+	margin:0px;
+	padding: 0px;
+}
 .authour{
 	position: relative;
 	text-align: center;
@@ -32,11 +36,20 @@ html{
 }
 
 .authour span{
-	font-weight: 500;	
 	font-size: 72px;
 	color: white;
 }
 .icons{
 	word-spacing: 50px;
+}
+.icons a{
+	color: white;	
+	text-decoration: none;
+	user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
