@@ -1,29 +1,73 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>login</title>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Karan Jariwala</title>
+		
+		<!------------------------------Importing Libraries --------------------------->
+		
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<link rel="stylesheet" href="res/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css" >
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="side.js"></script>
+	</head>
 
-<body>
-
-<form name="login">
-            Username: <input type="text" name="userid"/>
-            Password: <input type="password" name="pswrd"/>
-            <input type="button" onclick="check(this.form)" value="Login"/>
-</form>
-
-<script language="javascript">
-            function check(form) { /*function to check userid & password*/
-                /*the following code checkes whether the entered userid and password are matching*/
-                if(form.userid.value == "admin" && form.pswrd.value == "admin") {
-                    window.open('main.html');/*opens the target page while Id & password matches*/
-                }
-                else {
-                    alert("Error Password or Username")/*displays error message*/
-                }
-			}
-</script>
-
-</body>
+	<body>
+	<img src="res/pic.jpg" alt="" width="1920" height="1080" id="fsbg"/>
+	<!--------------------------------- Side Bar Code--------------------------->
+		<i class="fa fa-bars toggle_menu"></i>
+		<div class="sidebar_menu">
+			<i class="fa fa-times"></i>
+			<center>
+				<a href="main.html">
+				<h1 class="boxed_item">
+					KARAN <span class="logo_bold">JARIWALA</span>
+				</h1></a>
+			</center>
+			
+			<ul class="navigation_selection">
+				<a href="main.html">
+					<li class="navigation_item">
+						<i class="fa fa-home" aria-hidden="true"></i>   HOME
+					</li>
+				</a>
+				
+				<a href="soon.html">
+					<li class="navigation_item">
+						<i class="fa fa-child" aria-hidden="true"></i>  ABOUT
+					</li>
+				</a>
+				
+				<a href="soon.html">
+					<li class="navigation_item">
+						<i class="fa fa-code" aria-hidden="true"></i>   PROJECTS
+					</li>
+				</a>
+				
+				<a href="soon.html">
+					<li class="navigation_item">
+						<i class="fa fa-paper-plane" aria-hidden="true"></i>   CONTACT
+					</li>	
+				</a>		
+			</ul>			
+		</div>
+	
+		<!----------------------Home Page Code------------------->		
+		<div class="authour"> 
+			<span> Karan Jariwala <br>			
+			</span> 
+			<div class="icons">
+				<a href="https://www.github.com/kkaran360" target="_blank">
+					<i class="fa fa-github" aria-hidden="false"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/karan-jariwala-3b9a62132" target="_blank">
+					 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+				</a> 
+				<a href="mailto:karanj798@gmail.com" target="_blank">
+					 <i class="fa fa-envelope" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</body>
 </html>
