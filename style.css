@@ -36,25 +36,7 @@ html{
 	font-size: 72px;
 	color: white;
 }
-.github{
-	position: fixed;
-	left: 35%;
-	top: 55%;
-	font-size: 72px;
-	color: white;
-	
+.icons{
+	word-spacing: 50px;
 }
-.linkedin{
-	position: fixed;
-	left: 47.5%;
-	top: 55%;
-	font-size: 72px;
-	color: white;
-}
-.mail{
-	position: fixed;
-	left: 60%;
-	top: 55%;
-	font-size: 72px;
-	color: white;
-}
+
